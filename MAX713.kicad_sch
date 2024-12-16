@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MAX713 NiCd/NiMH battery fast-charge controller")
-		(date "2024-12-13")
+		(date "2024-12-16")
 		(rev "2")
 		(company "astroelectronic@")
 		(comment 1 "-")
@@ -2811,88 +2811,6 @@
 				)
 			)
 		)
-		(symbol "MAX713:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "MAX713:PWR_FLAG-power"
 			(power)
 			(pin_numbers hide)
@@ -3975,6 +3893,666 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MCU_Module:Arduino_UNO_R3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at -10.16 23.495 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Arduino_UNO_R3"
+				(at 5.08 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Module:Arduino_UNO_R3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arduino.cc/en/Main/arduinoBoardUno"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Arduino UNO Microcontroller Module, release 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Arduino UNO R3 Microcontroller Module Atmel AVR USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Arduino*UNO*R3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Arduino_UNO_R3_0_1"
+				(rectangle
+					(start -10.16 22.86)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Arduino_UNO_R3_1_1"
+				(pin no_connect line
+					(at -10.16 -20.32 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SDA/A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "SCL/A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "D0/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "D1/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "IOREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "SDA/A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -20.32 180)
+					(length 2.54)
+					(name "SCL/A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 25.4 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 25.4 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 25.4 270)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5177,6 +5755,12 @@
 		)
 	)
 	(junction
+		(at 34.29 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "035505d1-bbbe-4bdc-bfbd-0c97b8a40509")
+	)
+	(junction
 		(at 175.26 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5211,6 +5795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18f8856c-0726-4fd1-92a5-653f9a709b78")
+	)
+	(junction
+		(at 36.83 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c1476ba-6d99-419e-aa3f-59963b3bf889")
 	)
 	(junction
 		(at 123.19 93.98)
@@ -6276,7 +6866,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 76.2) (xy 25.4 190.5)
+			(xy 25.4 83.82) (xy 25.4 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6373,6 +6963,16 @@
 			(type default)
 		)
 		(uuid "59e1f820-1934-4e2a-a106-300615e73eef")
+	)
+	(wire
+		(pts
+			(xy 34.29 72.39) (xy 36.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af87946-bf82-4ce2-a11f-4831a813ef23")
 	)
 	(wire
 		(pts
@@ -6776,6 +7376,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 71.12) (xy 36.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d77455f-1e16-4285-bac3-59651b40c60b")
+	)
+	(wire
+		(pts
 			(xy 105.41 102.87) (xy 105.41 58.42)
 		)
 		(stroke
@@ -6836,7 +7446,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 25.4 76.2)
+			(xy 95.25 83.82) (xy 25.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7023,6 +7633,16 @@
 			(type default)
 		)
 		(uuid "a5e4faea-b669-4b4b-b6be-0c501eceec0d")
+	)
+	(wire
+		(pts
+			(xy 34.29 71.12) (xy 34.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a632a099-777f-4835-b204-fbf850b5ed6a")
 	)
 	(wire
 		(pts
@@ -7306,6 +7926,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 72.39) (xy 39.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cafc50-2878-48c2-b62b-c76f483cccfb")
+	)
+	(wire
+		(pts
 			(xy 246.38 101.6) (xy 246.38 104.14)
 		)
 		(stroke
@@ -7446,7 +8076,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 95.25 63.5)
+			(xy 95.25 83.82) (xy 95.25 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7593,6 +8223,16 @@
 			(type default)
 		)
 		(uuid "e081126a-f030-4ae1-94fa-bfbb024fa32a")
+	)
+	(wire
+		(pts
+			(xy 34.29 72.39) (xy 34.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1714fad-91b4-471b-839b-20f3be8a7da3")
 	)
 	(wire
 		(pts
@@ -7813,6 +8453,16 @@
 			(type default)
 		)
 		(uuid "f8a9a9ea-65d4-4974-8044-88bc30c3a085")
+	)
+	(wire
+		(pts
+			(xy 39.37 71.12) (xy 39.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93a78f0-f982-481e-afb4-d6d621764211")
 	)
 	(wire
 		(pts
@@ -8576,7 +9226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -11823,7 +12473,7 @@
 	)
 	(symbol
 		(lib_id "MAX713:SYM_ESD_Small")
-		(at 21.59 24.13 0)
+		(at 251.46 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11831,7 +12481,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061966285")
 		(property "Reference" "LOGO1"
-			(at 25.146 22.6314 0)
+			(at 255.016 133.1214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +12490,7 @@
 			)
 		)
 		(property "Value" "SYM_ESD_Small"
-			(at 25.146 24.9428 0)
+			(at 255.016 135.4328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,7 +12499,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
-			(at 21.59 23.876 0)
+			(at 251.46 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11858,7 +12508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 23.876 0)
+			(at 251.46 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11867,7 +12517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 24.13 0)
+			(at 251.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +12542,7 @@
 	)
 	(symbol
 		(lib_id "MAX713:Logo_Open_Hardware_Small")
-		(at 21.59 34.29 0)
+		(at 251.46 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11900,7 +12550,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061966c60")
 		(property "Reference" "LOGO2"
-			(at 27.8638 32.4866 0)
+			(at 257.7338 142.9766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,7 +12559,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 27.8638 34.798 0)
+			(at 257.7338 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11918,7 +12568,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:OSHW-Logo_5.7x6mm_SilkScreen"
-			(at 21.59 34.29 0)
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11927,7 +12577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 34.29 0)
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,7 +12586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 34.29 0)
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,7 +12611,7 @@
 	)
 	(symbol
 		(lib_id "MAX713:Fiducial")
-		(at 21.59 43.18 0)
+		(at 251.46 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11969,7 +12619,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006196c3bc")
 		(property "Reference" "LOGO3"
-			(at 23.749 42.0116 0)
+			(at 253.619 152.5016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +12628,7 @@
 			)
 		)
 		(property "Value" "WEEE"
-			(at 23.749 44.323 0)
+			(at 253.619 154.813 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +12637,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:WEEE-Logo_4.2x6mm_SilkScreen"
-			(at 21.59 43.18 0)
+			(at 251.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +12646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 43.18 0)
+			(at 251.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +12655,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 43.18 0)
+			(at 251.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +12680,7 @@
 	)
 	(symbol
 		(lib_id "MAX713:Fiducial")
-		(at 21.59 50.8 0)
+		(at 251.46 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12038,7 +12688,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006196cd04")
 		(property "Reference" "LOGO4"
-			(at 23.749 49.6316 0)
+			(at 253.619 160.1216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,7 +12697,7 @@
 			)
 		)
 		(property "Value" "KICAD"
-			(at 23.749 51.943 0)
+			(at 253.619 162.433 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12056,7 +12706,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:KiCad-Logo2_5mm_SilkScreen"
-			(at 21.59 50.8 0)
+			(at 251.46 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12065,7 +12715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 50.8 0)
+			(at 251.46 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +12724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 50.8 0)
+			(at 251.46 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,282 +14795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX713:MountingHole")
-		(at 147.32 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c59fb3")
-		(property "Reference" "H1"
-			(at 149.86 176.6316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 149.86 178.943 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 147.32 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MAX713"
-				(path "/31e58e92-881f-4e6e-a7fe-1dbf4a588512"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/89721ad6-3b0d-4592-84d3-0efdaa6e1284"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MAX713:MountingHole")
-		(at 147.32 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c5a5c9")
-		(property "Reference" "H2"
-			(at 149.86 182.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 149.86 185.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 147.32 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MAX713"
-				(path "/31e58e92-881f-4e6e-a7fe-1dbf4a588512"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/89721ad6-3b0d-4592-84d3-0efdaa6e1284"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MAX713:MountingHole")
-		(at 157.48 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c5abd9")
-		(property "Reference" "H3"
-			(at 160.02 176.6316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 160.02 178.943 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MAX713"
-				(path "/31e58e92-881f-4e6e-a7fe-1dbf4a588512"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/89721ad6-3b0d-4592-84d3-0efdaa6e1284"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MAX713:MountingHole")
-		(at 157.48 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c5aea1")
-		(property "Reference" "H4"
-			(at 160.02 182.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 160.02 185.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 157.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MAX713"
-				(path "/31e58e92-881f-4e6e-a7fe-1dbf4a588512"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/89721ad6-3b0d-4592-84d3-0efdaa6e1284"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MAX713:Fiducial")
 		(at 67.31 168.91 0)
 		(unit 1)
@@ -14717,6 +15091,167 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Module:Arduino_UNO_R3")
+		(at 36.83 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9032d4e9-66fc-4adc-a858-4b2a613a0a25")
+		(property "Reference" "A1"
+			(at 44.1041 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Arduino_UNO_R3"
+			(at 44.1041 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Arduino_UNO_R3_WithMountingHoles"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arduino.cc/en/Main/arduinoBoardUno"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arduino UNO Microcontroller Module, release 3"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "27"
+			(uuid "90853f48-ddc2-469a-b8ae-38b4382828b0")
+		)
+		(pin "19"
+			(uuid "cf6c1fd4-d62b-47bb-bcd3-15a4a3bed714")
+		)
+		(pin "32"
+			(uuid "c3c5db70-ceec-4a64-b1b2-c24b5eccd5b6")
+		)
+		(pin "11"
+			(uuid "7df02b2e-3082-46f1-a9e8-ce29d2851f86")
+		)
+		(pin "17"
+			(uuid "76eaddd6-769e-4b76-9316-94fcf68c7d6f")
+		)
+		(pin "3"
+			(uuid "fc7452d8-1304-4f25-ac63-d14ffba99d74")
+		)
+		(pin "8"
+			(uuid "efb3ae98-aaaf-4f64-9628-fc6de96bfc59")
+		)
+		(pin "9"
+			(uuid "1334ab5b-484a-47ce-9f11-d513a05cd84c")
+		)
+		(pin "10"
+			(uuid "14bb5a20-42fc-4cfc-9d76-9253780cbc45")
+		)
+		(pin "28"
+			(uuid "7cd3e42a-6cb7-4ec6-a5ac-66dc2eead38a")
+		)
+		(pin "2"
+			(uuid "eeb5d8ff-2df0-45df-a99b-06eae4fb1295")
+		)
+		(pin "7"
+			(uuid "d00c4a24-808c-4acd-b6a2-c7c2da062708")
+		)
+		(pin "1"
+			(uuid "ad9653de-2359-40e8-a0d9-ac5811c10f5a")
+		)
+		(pin "15"
+			(uuid "b8e84263-178d-4683-b975-7a202ad9e15d")
+		)
+		(pin "16"
+			(uuid "34d9f165-c164-4777-a6f1-1f3366d2bab7")
+		)
+		(pin "20"
+			(uuid "23ace2fb-1815-45ee-9a61-d2adc87a17f0")
+		)
+		(pin "29"
+			(uuid "fe0080d1-6cf1-4fb1-880b-b59d3fe872c8")
+		)
+		(pin "18"
+			(uuid "c0b54b10-f508-4362-b1fe-5bd87c35ed1e")
+		)
+		(pin "26"
+			(uuid "c95511c9-5dd8-433e-83ce-ebef09044de8")
+		)
+		(pin "22"
+			(uuid "7ccc338d-5900-4d07-abbf-e540b4ddc744")
+		)
+		(pin "31"
+			(uuid "7ec6390d-31c0-4d66-8c82-32b1786664b2")
+		)
+		(pin "24"
+			(uuid "bf5e55a5-de3d-462b-a2f9-a7673d0e5560")
+		)
+		(pin "4"
+			(uuid "805844ab-7d93-4d95-a3bf-f1f0a4b80a0f")
+		)
+		(pin "5"
+			(uuid "f95436cd-06aa-4dd6-b9f1-7d6a6cd6a44a")
+		)
+		(pin "12"
+			(uuid "df95ac18-ea63-4fda-8a73-43715adcc370")
+		)
+		(pin "21"
+			(uuid "2eba011c-c346-4003-a876-fdfef3eff362")
+		)
+		(pin "23"
+			(uuid "29a7f1ed-d2fe-4a57-9ee6-d3c314b3a45e")
+		)
+		(pin "30"
+			(uuid "92e8ec6e-9d44-483f-9775-356db1697bd2")
+		)
+		(pin "13"
+			(uuid "ad574ab9-4b26-4989-8778-7ffc354ae196")
+		)
+		(pin "6"
+			(uuid "0e50401c-9a63-415d-a4bd-a0467c979ee1")
+		)
+		(pin "14"
+			(uuid "9af63a2d-8c75-4f47-9cfe-6ac1bd9f9ea4")
+		)
+		(pin "25"
+			(uuid "1b1730c6-fe7a-41e0-80b4-ee8622ff2293")
+		)
+		(instances
+			(project "MAX713"
+				(path "/31e58e92-881f-4e6e-a7fe-1dbf4a588512"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MAX713:Fiducial")
 		(at 140.97 73.66 0)
 		(unit 1)
@@ -14785,6 +15320,72 @@
 			(project "MAX713"
 				(path "/31e58e92-881f-4e6e-a7fe-1dbf4a588512"
 					(reference "HEADER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MAX713:GND-power")
+		(at 34.29 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b86607e9-9979-4b60-8bb2-b144a5178f5a")
+		(property "Reference" "#PWR01"
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f24de75-7c60-4fd2-ba05-dfaf95967d87")
+		)
+		(instances
+			(project "MAX713"
+				(path "/31e58e92-881f-4e6e-a7fe-1dbf4a588512"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
